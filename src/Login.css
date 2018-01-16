@@ -1,0 +1,118 @@
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	/*background: linear-gradient(to bottom, rgba(135,49,168,.5), rgba(181,24,113,.5), rgba(216,18,69,.5), rgba(245,183,61,.5));*/
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url('images/bg2.jpg');
+	background-size:cover;
+	/*background-color:#222222;*/
+}
+
+@font-face {
+	font-family:regular;
+	src:url('fonts/Inter-UI-Regular.otf');
+	src:url('fonts/Inter-UI-Regular.ttf');
+}
+
+@font-face {
+	font-family:medium;
+	src:url('fonts/Inter-UI-Medium.otf');
+	src:url('fonts/Inter-UI-Medium.ttf');
+}
+
+@font-face {
+	font-family:bold;
+	src:url('fonts/Inter-UI-Bold.otf');
+	src:url('fonts/Inter-UI-Bold.ttf');
+}
+
+@font-face {
+	font-family:heavy;
+	src:url('fonts/Inter-UI-Black.otf');
+	src:url('fonts/Inter-UI-Black.ttf');
+}
+
+#login-container {
+	width:300px;
+	display:block;
+	margin:0px auto;
+	height:auto;
+	background-color:white;
+	margin-top:20px;
+	border-radius:24px;
+	margin-top:200px;
+	padding:15px 15px 10px 15px;
+	border:3px solid #e3e3e3;
+}
+
+#username-input {
+	width:90%;
+	display:block;
+	margin:0px auto;
+	height:40px;
+	font-family:medium;
+	font-size:20px;
+	padding-left:10px;
+	margin-bottom:15px;
+	border-radius:15px;
+	border:2px solid #e3e3e3;
+}
+
+#password-input {
+	width:90%;
+	display:block;
+	margin:0px auto;
+	height:40px;
+	font-family:medium;
+	font-size:20px;
+	padding-left:10px;
+	border-radius:15px;
+	border:2px solid #e3e3e3
+}
+
+#username-input:focus, #password-input:focus {
+	outline:0;
+}
+
+.input-label {
+	font-family:medium;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5%;
+	color:#aaaaaa;
+}
+
+#login-button {
+	width:90%;
+	display:block;
+	margin:0px auto;
+	margin-top:28px;
+	height:33px;
+	text-align:center;
+	border-radius:20px;
+	font-family:bold;
+	color:white;
+	font-size:18px;
+	padding-top:10px;
+	cursor:pointer;
+	margin-bottom:5%;
+	transition:ease all .1s;
+	background-color:#2ecc71;
+	border:3px solid #33b063;
+	padding-left:3px;
+	padding-right:px;
+}
+
+#login-button:hover {
+	background-color:#33b063;
+	color:white;
+}
+
+a {
+	text-decoration:none;
+}
