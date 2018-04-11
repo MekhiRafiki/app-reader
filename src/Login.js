@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Login.css';
 
-var BACKEND_URL = "https://XXXXXXXXXXX.herokuapp.com";
+var BACKEND_URL = "https://lit-wave-50852.herokuapp.com/";
 
 class Login extends Component {
 	render() {
